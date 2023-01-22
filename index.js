@@ -31,6 +31,8 @@ app.use('/',auth_route);
 // app.put('/update/:_id', user.updateuser);
 // app.delete('/delete/:_id', user.deleteuser);
 
-
+// app.get('/sendmssg',async (req, res) => {
+//     console.log('asas');
+// });
 
 app.listen(5000);
