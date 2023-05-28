@@ -20,7 +20,7 @@ const auth_route = require('./route/authRoute');
 const token_verify = require('./midelware/token');
 
 // app.use('/',user_route);
-
+//divya
 app.use('/',auth_route);
 // const user = require('./controllers/usersController');
 
